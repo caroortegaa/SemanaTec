@@ -45,7 +45,6 @@ def centers(clusters):
 
 print(centers(cercanos(puntos, centros)))
 
-
 #4
 
 def k_means(puntos):
@@ -55,5 +54,5 @@ def k_means(puntos):
         k = clusters(centr)
         new_centers = centr(k)
     return new_centers
-    i+1
+    i+=1
 print (new_centers , k)
